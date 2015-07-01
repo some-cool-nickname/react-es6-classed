@@ -6,9 +6,11 @@ import React, {Component} from 'react';
 class App extends Component {
   render() {
     return (
-      <h1>App</h1>
+      <h1>test</h1>
     );
   }
 }
 
-React.render(<App />, document.getElementById('main'));
+React.render(<App />, document.getElementById('app'));
+
+export default App;
