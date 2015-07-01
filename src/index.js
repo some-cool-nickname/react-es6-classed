@@ -5,11 +5,12 @@ import React from 'react';
 
 import Base from './components/Base.React.js';
 import SimpleList from './components/SimpleList/SimpleList.React.js';
+import MockData from './components/SimpleList/MockData.js'
 
 class App extends Base {
   render() {
     return (
-      <SimpleList />
+      <SimpleList items={[MockData, MockData, MockData]}/>
     );
   }
 }

@@ -1,8 +1,7 @@
 /**
  * Created by mikhail on 01.07.15.
  */
-import React from 'react';
-import MockData from './MockData.js';
+import React, {PropTypes} from 'react';
 
 import Base from '../Base.React.js';
 import SimpleListItem from './SimpleListItem.React.js';
@@ -10,8 +9,11 @@ import SimpleListItem from './SimpleListItem.React.js';
 require('./_simpleList.scss');
 
 class SimpleList extends Base {
-  state = {
-    items: [MockData, MockData, MockData]
+  static propTypes = {
+    data: PropTypes.array
+  };
+  static defaultPropTypes = {
+    data: []
   };
 
   getListItem (data, index) {
@@ -19,7 +21,7 @@ class SimpleList extends Base {
   }
   render() {
    return (
-     <div className="simple-list">{this.state.items.map(this.getListItem)}</div>
+     <div className="simple-list">{this.props.items.map(this.getListItem)}</div>
    );
   }
 }
