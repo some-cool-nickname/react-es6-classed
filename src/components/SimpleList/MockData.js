@@ -1,0 +1,4 @@
+export default {
+  author: 'Author',
+  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex lorem, hendrerit vitae libero vel, ornare rutrum erat. Ut convallis, libero at molestie varius, metus nisi laoreet nibh, eu sodales nulla leo ut nunc. Maecenas eu commodo neque. Sed eleifend feugiat velit nec tempus. Nullam sagittis nec nulla convallis sodales. Maecenas vitae cursus leo. Aliquam augue nibh, blandit vel vehicula in, viverra ac mi. Morbi in mattis dolor. Ut consectetur sem lectus. Pellentesque dignissim orci dapibus magna tincidunt mollis. Ut ultricies lorem ligula, ut efficitur justo pharetra at. Etiam a arcu vitae libero aliquam cursus. Nulla pellentesque porttitor mattis. Fusce condimentum velit vel velit bibendum euismod. Etiam non turpis nibh.'
+}

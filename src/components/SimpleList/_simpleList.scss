@@ -1,0 +1,10 @@
+.simple-list {
+  width: 500px;
+  margin: 100px auto;
+  .simple-list-item {
+    .text {
+      margin-bottom: 10px;
+    }
+    border-bottom: 1px solid #333;
+  }
+}

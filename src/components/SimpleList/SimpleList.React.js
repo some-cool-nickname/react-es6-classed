@@ -2,22 +2,16 @@
  * Created by mikhail on 01.07.15.
  */
 import React from 'react';
+import MockData from './MockData.js';
 
 import Base from '../Base.React.js';
 import SimpleListItem from './SimpleListItem.React.js';
 
+require('./_simpleList.scss');
+
 class SimpleList extends Base {
   state = {
-    items: [{
-      text: 'Item text',
-      author: 'Author'
-    }, {
-      text: 'Item text 1',
-      author: 'Author 1'
-    }, {
-      text: 'Item text 2',
-      author: 'Author 2'
-    }]
+    items: [MockData, MockData, MockData]
   };
 
   getListItem (data, index) {
