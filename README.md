@@ -1,6 +1,6 @@
 # React ES6 classes
 
-This project is a simple skeleton of app based on ReactJS components written in ES6 format. Also you can reach tests written in ES6 format.
+This project is a simple skeleton of app based on ReactJS components written in ES6 format (mixins as decorated components). Also you can reach tests written in ES6 format, and way how to mock imported dependencies.
 
 ### Commands
 Start dev server with hot reload React components
